@@ -1,0 +1,45 @@
+
+body {
+    background-image: url("../images/odin-recipe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
+#header-background {
+    width: 100%;
+    display: block;
+    top: 0;
+}
+
+#heading { 
+    color: black;
+    text-align: center;
+    font-size: 150px;
+
+}
+
+#recipe-list {
+    text-align: center;
+}
+
+li a{ 
+    color: rgb(209, 175, 175);
+    font-size: 38px;
+}
+
+ul { 
+    margin-top: 110px;
+}
+
+h4 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: rgb(44, 26, 26);
+}
