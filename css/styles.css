@@ -1,5 +1,6 @@
 *{
     color: white;
+
 }
 
 body{
@@ -12,7 +13,6 @@ body{
 
 .recipe-list {
     list-style: none;
-    background-color: ;
     width: 600px;
     display: block;
     text-align: center;
@@ -61,4 +61,8 @@ body{
 
 h4 p{
     display: inline-block;
+}
+
+.recipe-list.recipe-list-card:hover{
+    background: linear-gradient(to bottom,  #001314 0%,#001314 1%);
 }
