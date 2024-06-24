@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Odin Recipes</title>
-        <meta name="description" content="Odin Recipes is a website produced from self learning The Odin Project curriculum.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
-    <body>
-        <h1 class="body-title">Odin Recipes</h1>
-        <h4 class="preamble">Recipes Available Today: <p id="current-date"></p></h4>
+
+<head>
+    <meta charset="utf-8">
+    <title>Odin Recipes</title>
+    <meta name="description"
+        content="Odin Recipes is a website produced from self learning The Odin Project curriculum.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/recipes.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1 class="body-title">Odin Recipes</h1>
+    <h4 class="preamble">Recipes Available Today: <p id="current-date"></p>
+    </h4>
+
+    <div class="container">
         <ul class="recipe-list recipe-list-card">
             <li class="recipe"><a href="recipes/banana-pudding.html">Banana Pudding</a></li>
-            <li class="recipe"><a href="recipes/roast-beef-and-cheddar-sliders.html">Roast Beef and Cheddar Sliders</a></li>
+            <li class="recipe"><a href="recipes/roast-beef-and-cheddar-sliders.html">Roast Beef and Cheddar Sliders</a>
+            </li>
             <li class="recipe"><a href="recipes/beans-stew.html">Beans Stew</a> </li>
         </ul>
+    </div>
 
-        <script>
-            const date_element = document.getElementById("current-date");
-            const date = new Date();
-            date_element.innerText = date.toDateString();
-        </script>
-    </body>
+    <script>
+        const date_element = document.getElementById("current-date");
+        const date = new Date();
+        date_element.innerText = date.toDateString();
+    </script>
+</body>
+
 </html>
