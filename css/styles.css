@@ -1,11 +1,18 @@
 * {
     color: white;
+    outline: 2px solid red;
 
 }
 
+section{
+    display: block;
+    margin: 0 auto;
+    /* align-items: center;
+    text-align: center; */
+
+}
 body {
-    align-items: center;
-    text-align: center;
+
     background-image: url(../images/pineapple.jpg);
     background-size: cover;
     height: 100vh;
